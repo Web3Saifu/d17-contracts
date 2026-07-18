@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+cache/
+runs/
+.env
+.env.*
+!.env.example
+!.env.mainnet.example
+*.log
+.DS_Store

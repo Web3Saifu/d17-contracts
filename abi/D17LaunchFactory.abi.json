@@ -1,0 +1,238 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "d17Factory_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "tokenFactory_",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "liquidityVaultFactory_",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "CANONICAL_DEAD_RECIPIENT",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "d17Factory",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "tokenName",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "tokenSymbol",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "logoSvgUri",
+            "type": "string"
+          },
+          {
+            "components": [
+              {
+                "internalType": "string",
+                "name": "linkType",
+                "type": "string"
+              },
+              {
+                "internalType": "string",
+                "name": "url",
+                "type": "string"
+              }
+            ],
+            "internalType": "struct ID17LaunchFactory.Link[]",
+            "name": "links",
+            "type": "tuple[]"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tokenSupply",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "saleTokens",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lpTokens",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "manualDistributionTokens",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "deadTokens",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "deadRecipient",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "treasury",
+            "type": "address"
+          },
+          {
+            "internalType": "uint64",
+            "name": "startTime",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint32[5]",
+            "name": "roundSeconds",
+            "type": "uint32[5]"
+          },
+          {
+            "internalType": "uint32",
+            "name": "refundSeconds",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint32",
+            "name": "settlementSeconds",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minCommitWeth",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minPhase1Weth",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minAnchorPriceWad",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint16[5]",
+            "name": "roundSharesBps",
+            "type": "uint16[5]"
+          },
+          {
+            "internalType": "uint16",
+            "name": "treasuryBps",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint16",
+            "name": "refundPenaltyBps",
+            "type": "uint16"
+          },
+          {
+            "internalType": "bool",
+            "name": "burnUnsoldSaleTokens",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct ID17LaunchFactory.LaunchConfig",
+        "name": "config",
+        "type": "tuple"
+      },
+      {
+        "internalType": "address",
+        "name": "creator",
+        "type": "address"
+      }
+    ],
+    "name": "deployLaunch",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "token",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "launch",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "liquidityVault",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "liquidityVaultFactory",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "tokenFactory",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

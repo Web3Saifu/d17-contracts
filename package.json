@@ -1,0 +1,29 @@
+{
+  "name": "@d17/contracts",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || >=24.0.0"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "clean": "hardhat clean",
+    "test": "node test/local-e2e.mjs",
+    "build:abi": "node scripts/export-abi.mjs",
+    "check:explorer": "node scripts/check-explorer.mjs",
+    "deploy:factory": "node scripts/deploy-factory.mjs",
+    "verify:factory": "node scripts/verify-factory-deployment.mjs",
+    "create:launch": "node scripts/create-launch.mjs"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^3.0.20",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.4.5"
+  },
+  "overrides": {
+    "undici": "^6.27.0",
+    "ws": "^8.21.0"
+  }
+}

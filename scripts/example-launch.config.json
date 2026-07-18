@@ -1,0 +1,30 @@
+{
+  "tokenName": "D17 Example Launch",
+  "tokenSymbol": "D17EX",
+  "description": "An example D17 launch with a 25/10/10/55 supply split, token metadata and a compact base64 SVG logo.",
+  "logoSvgUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBmaWxsPSIjNjI3ZWVhIiBkPSJNNjQgNCAyNCA3MGw0MCAyMyA0MC0yM0w2NCA0WiIvPjxwYXRoIGZpbGw9IiM4ZmEyZmYiIGQ9Ik02NCA0djg5bDQwLTIzTDY0IDRaIi8+PHBhdGggZmlsbD0iIzM0MzQzNCIgZD0iTTI0IDc4bDQwIDQ2IDQwLTQ2LTQwIDIzLTQwLTIzWiIvPjxwYXRoIGZpbGw9IiM1ZjZlY2YiIGQ9Ik02NCAxMjRWMTAxbDQwLTIzLTQwIDQ2WiIvPjxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjI4IiBkPSJNNjQgNDcgMjQgNzBsNDAgMjMgNDAtMjMtNDAtMjNaIi8+PC9zdmc+",
+  "links": [
+    { "linkType": "website", "url": "https://ethereum.org" },
+    { "linkType": "docs", "url": "https://ethereum.org/developers/docs" },
+    { "linkType": "github", "url": "https://github.com/ethereum" },
+    { "linkType": "x", "url": "https://x.com/ethereum" },
+    { "linkType": "research", "url": "https://ethresear.ch" }
+  ],
+  "tokenSupply": "100000000",
+  "saleTokens": "25000000",
+  "lpTokens": "10000000",
+  "manualDistributionTokens": "10000000",
+  "deadTokens": "55000000",
+  "deadRecipient": "0x000000000000000000000000000000000000dEaD",
+  "startDelaySeconds": 3600,
+  "roundSeconds": [300, 300, 300, 300, 300],
+  "refundSeconds": 120,
+  "settlementSeconds": 600,
+  "minCommitWeth": "0.001",
+  "minPhase1Weth": "1",
+  "minAnchorPriceWethPerToken": "0.00000005",
+  "roundSharesBps": [4000, 1500, 1500, 1500, 1500],
+  "treasuryBps": 100,
+  "refundPenaltyBps": 1700,
+  "burnUnsoldSaleTokens": true
+}
