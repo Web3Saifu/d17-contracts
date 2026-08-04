@@ -11,6 +11,7 @@ interface ID17LockerRegistry {
 contract D17LockerFactory {
     address public immutable d17Factory;
 
+
     event LockerCreated(address indexed owner, address indexed locker);
 
     constructor(address d17Factory_) {
