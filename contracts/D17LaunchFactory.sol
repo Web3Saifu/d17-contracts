@@ -4,6 +4,7 @@ pragma solidity ^0.8.24;
 import {D17Launch} from "./D17Launch.sol";
 import {ID17LaunchFactory} from "./interfaces/ID17LaunchFactory.sol";
 
+
 interface ID17FactoryConfigView {
     function weth() external view returns (address);
     function router() external view returns (address);
