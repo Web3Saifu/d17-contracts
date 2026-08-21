@@ -18,6 +18,7 @@ contract D17Locker {
     uint256 public accountedWeth;
     uint256 private entered = 1;
 
+
     struct LockerPosition {
         bool known;
         bool liquiditySettled;
